@@ -7,32 +7,61 @@ author: Paul Wallace
 
 # Localize the Docs
 
+
+
 # G11n I18n L10n T9n... WTF?!
 
 ## GILT
+
+The term _localization_ is often used as shorthand for the following domains:
 
 - Globalization _(G11n)_
 - Internationalization _(I18n)_
 - Localization _(L10n)_
 - Translation _(T9n)_
 
-## Globalization
+## Globalization Concerns
 
-_(G11n)_
+- _"Should we deploy our product in a specific language/locale market?"_
+- _"What will it take for us to do so?"_
+- _"What will it cost?"_
+- _"How long will it take?"_
+- _"Will it be profitable?"_
 
-## Internationalization
+## Internationalization Concerns
 
-_(I18n)_
+- _"Is code structured to support localized resources?"_
+- _"Are string resources isolated and easy to update?"_
+- _"Can the UI handle localized presentations?"_
+- _"How efficiently can we deploy localized resources?"_
+- _"Is refactoring necessary? If so, how much?"_
+- _"If we choose not to refactor, what will the remaining inefficiencies cost us?"_
+- _"Are localized components testable?"_
 
-## Localization
+## Localization Concerns
 
-_(L10n)_
+- _"Are we partnered with a competent, capable LSP?"_
+- _"How efficiently can we round-trip content?"_
+- _"Have we identified our domain-specific terminologies?"_
 
-## Translation
+## Translation Concerns
 
-_(T9n)_
+- _"What languages/locales should we support?"_
+- _"Does the LSP have access to enough competent translators and reviewers for each language/locale pairing?"_
+
+## GILT Assessment
+
+The decision to localize should be guided by a _GILT assessment_, which examines the following:
+
+- The business case _(globalization)_
+- Product infrastructure _(internationalization)_
+- Process infrastructure _(localization)_
+- Competency of service providers _(translation)_
+
 
 ## Localization Maturity Model
+
+The _localization maturity model_ can be used to gauge an organization's overall localization capabilities. The model includes the following degrees:
 
 - `0` **Negligent**
 - `1` **Reactive**
@@ -43,67 +72,49 @@ _(T9n)_
 
 ## Localization Maturity Model
 
-**Negligent**
+`0` **Negligent**
 
 No thought or effort expended on GILT
 
 ## Localization Maturity Model
 
-**Reactive**
+`1` **Reactive**
 
 Ad hoc, lack of defined process, lots of surprises
 
 ## Localization Maturity Model
 
-**Repeatable**
+`2` **Repeatable**
 
-Manual processes, time-consuming, error-prone
+There are processes, but they're manual, time-consuming, error-prone
 
 ## Localization Maturity Model
 
-**Managed**
+`3` **Managed**
 
 Automated processes, efficient turnarounds
 
 ## Localization Maturity Model
 
-**Optimized**
+`4` **Optimized**
 
 Data-based (metrics), specialized tools and systems (TMS/CCMS), distributed environments; deep insight into project state
 
 ## Localization Maturity Model
 
-**Transparent**
+`5` **Transparent**
 
-True GILT, pervading the entire system from business to operations, from beginning to end
+GILT nirvana, pervading the entire system from business to operations, from beginning to end
+
+# Round Tripping
 
 
-## GILT Assessment
+## Localization Service Providers
 
-The decision to localize isn't merely a question of languages. It entails an assessment that begins from a globalization perspective (the broadest, highest level) and proceeds through internationalization (product infrastructure) and localization (process infrastructure) and only then to translation.
+### Costs
 
-## G11n Concerns
 
-- _"Should we deploy our product in a specific language/locale market?"_
-- _"What will it take for us to do so?"_
+### Timelines
 
-## I18n Concerns
 
-- _"How is the product structured internally? Are string resources in explicit locations, and are they easy to update?"_
-- _"Does the product have hooks for supporting localized resources?"_
-- _"How efficiently can we deploy localized resources?"_
-- _"Is refactoring necessary? If so, how much?"_
-- _"If we choose not to refactor, what will the remaining inefficiencies cost us?"_
-- _"Are localized components testable?"_
-
-## L10n Concerns
-
-- _"Are we partnered with a competent LSP that has the appropriate capabilities?"_
-- _"How efficiently can we round-trip content?"_
-- _"Do we have existing translation memory that we can leverage?"_
-- _"Have we identified our domain-specific terminologies?"_
-
-## T9n Concerns
-
-- _"What languages/locales should we support?"_
-- _"Does the LSP have access to enough competent translators and reviewers for that language/locale pairing?"_
+### Value
