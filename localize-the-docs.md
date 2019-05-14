@@ -22,11 +22,11 @@ The term _localization_ is often used as shorthand for the following domains:
 
 ## Globalization Concerns
 
-- _"Should we deploy our product in a specific language/locale market?"_
-- _"What will it take for us to do so?"_
-- _"What will it cost?"_
-- _"How long will it take?"_
-- _"Will it be profitable?"_
+- _"Can we profit by entering a specific language/locale market?"_
+- _"What is the current i18n and l10n state of the product?"_
+- _"What is the estimated time to market?"_
+- _"What is the expected ROI?"_
+- _"What resources must we deploy to achieve our goals?"_
 
 ## Internationalization Concerns
 
@@ -110,6 +110,7 @@ GILT nirvana, pervading the entire system from business to operations, from begi
 
 
 ## Localization Service Providers
+
 
 ### Costs
 
