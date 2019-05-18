@@ -16,7 +16,7 @@ author: Paul Wallace
 # Localize the Docs
 
 
-## `$ whoami`
+### `$ groups $(whoami)`
 
 - Japanese translator
 - Editor
@@ -83,6 +83,8 @@ A GILT assessment can identify the following:
 - Potential ROI
 - Feasibility
 
+# Localization Workflow
+
 ## Localization Service Providers
 
 ![](https://upload.wikimedia.org/wikipedia/commons/6/6a/Shankly_Gates.jpg)
@@ -94,7 +96,7 @@ No changes made to image.
 
 ## Localization Service Providers
 
-A localization service provider (LSP) should provide the following:
+A localization service provider (LSP) can offer the following:
 
 - Experienced industry professionals
 - Guidance on best practices
@@ -102,8 +104,6 @@ A localization service provider (LSP) should provide the following:
 - Vetted translators and reviewers
 - Project management
 - Reporting capabilities
-
-# Localization Workflow
 
 ## Localization Workflow
 
@@ -127,13 +127,23 @@ Standardized XML tools make content portable
 - Parse data to calculate cost estimates and reports
 - Route data through the LSP
 
+## Localization Workflow: Tooling
+
+The XML tools use the following formats:
+
+- Segmentation Rules eXchange _(SRX)_
+- Translation Memory eXchange _(TMX)_
+- XML Localization Interchange File Format _(XLIFF)_
+
 ## Localization Workflow: LSP
 
 - Your PM organizes jobs and schedules
 - PM distributes content to translators
 - Translators use IDEs to work on data
-- PM receives data and sends it back through tooling
-- You receive translated source content
+- PM distributes content to reviewers
+- Completed and approved content is integrated
+- Tools generate translated source files
+- You receive deliverables
 
 ## Localization Workflow
 
@@ -180,6 +190,7 @@ _General estimates for technical t9n, YMMV_
 | Desktop publishing | $55~75/hr |
 | Engineering        | $55~75/hr |
 | Rush job           |   20~25%  |
+| Minimum fee        | $100~130  |
 
 _General estimates for technical t9n, YMMV_
 
@@ -200,7 +211,7 @@ _General estimates for technical t9n, YMMV_
 <!--
 ## Localization Maturity Model
 
-The _localization maturity model_ can be used to gauge an organization's overall localization capacities. The model includes the following stages:
+Gauging an organization's overall localization capacities
 
 - `0` **Negligent**: Wait, we're localizing?!
 - `1` **Reactive**: Ad hoc, lots of surprises
@@ -213,7 +224,7 @@ The _localization maturity model_ can be used to gauge an organization's overall
 
 - Do a GILT assessment to identify possible pain points
 - Partner up with a good, reputable LSP
-- You get what you pay for!
+- Expect to pay market rates _(You get what you pay for!)_
 
 ## Additional Resources
 
@@ -231,3 +242,5 @@ The _localization maturity model_ can be used to gauge an organization's overall
 Ricardo Liberato [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]
 No changes to image.
 :::
+
+https://github.com/apaluya/localize-the-docs
