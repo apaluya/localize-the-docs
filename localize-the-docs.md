@@ -139,6 +139,12 @@ Standardized XML tools make content portable
 
 ![](automated-workflow.png)
 
+## What about Machine Translation?
+
+- Machine translation requires consistency
+- Consistency is intentional and rules-based
+- If your content wasn't created with MT in mind, it's probably not a good fit
+
 # Costs
 
 ## Costs: Per-word Estimates
@@ -177,10 +183,11 @@ _General estimates for technical t9n, YMMV_
 
 _General estimates for technical t9n, YMMV_
 
-# Time
+## Costs: Time
 
-## Scheduling
-
+- Automation increases velocity
+-
+- Your LSP is motivated to deliver as quickly as possible
 
 
 <!--
@@ -197,7 +204,7 @@ The _localization maturity model_ can be used to gauge an organization's overall
 
 ## Takeaways
 
-- Do a GILT assessment
+- Do a GILT assessment to identify possible pain points
 - Partner up with a good, reputable LSP
 - Expect to pay professional-level rates
 
