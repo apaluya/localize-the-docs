@@ -105,6 +105,14 @@ A localization service provider (LSP) can offer the following:
 - Project management
 - Reporting capabilities
 
+## Choosing an LSP
+
+- Enterprise-scale
+- Domain expertise
+- Accessibility
+- Features and services
+- [The Nimdzi 100](https://www.nimdzi.com/2019-nimdzi-100/): Annual list of the largest LSPs
+
 ## Localization Workflow
 
 ![](automated-workflow.png)
