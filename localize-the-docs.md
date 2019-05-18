@@ -18,8 +18,6 @@ author: Paul Wallace
 
 ## `$ whoami`
 
-I'm a role player...
-
 - Japanese translator
 - Editor
 - Tech writer
@@ -76,7 +74,6 @@ The decision to localize should be guided by a _GILT assessment_, which examines
 - _"What languages/locales should we support?"_
 - _"Do we have access to enough competent translators and reviewers for each language/locale pairing?"_
 
-
 ## GILT Assessment
 
 A GILT assessment can identify the following:
@@ -99,26 +96,53 @@ No changes made to image.
 
 A localization service provider (LSP) should provide the following:
 
-- Experienced professionals
-- Industry knowledge and guidance
+- Experienced industry professionals
+- Guidance on best practices
 - Modern tool systems
 - Vetted translators and reviewers
 - Project management
 - Reporting capabilities
-- _Not all LSPs are created the same!_
+
+## Localization Workflow
+
+![](automated-workflow.png)
+
+## Localization Workflow: Client
+
+You provide resources to your LSP
+
+- Source files
+- Terminology lists
+- Translation memory _(if applicable)_
+
+## Localization Workflow: Tooling
+
+- Create segments at sentence and phrase level
+- Find segment matches in translation memory
+- Create intermediate representation of data
+- Parse data to calculate cost estimates and reports
+- Route data through LSP
+
+## Localization Workflow: LSP
+
+- Your PM organizes jobs and scheduling
+- PM distributes content to translators
+- Translators use IDEs to work on data
+- PM receives data and sends it back through tooling
+- You receive translated source content
 
 # Costs
 
 ## Costs: Per-word Estimates
 
-| Lang group        | Word price  |
-|-------------------|-------------|
-| Chinese Simpl.    | $0.13~0.17  |
-| Western Euro      | $0.15~0.19  |
-| Centrl/East. Euro | $0.18~0.22  |
-| Korean            | $0.18~0.22  |
-| Middle East       | $0.21~0.25  |
-| Japan             | $0.24~0.28  |
+| Lang group         | Word price  |
+|--------------------|-------------|
+| Chinese Simpl.     | $0.13~0.17  |
+| Western Euro.      | $0.15~0.19  |
+| Centrl/East. Euro. | $0.18~0.22  |
+| Korean             | $0.18~0.22  |
+| Middle East        | $0.21~0.25  |
+| Japan              | $0.24~0.28  |
 
 _General estimates for technical t9n, YMMV_
 
@@ -145,7 +169,13 @@ _General estimates for technical t9n, YMMV_
 
 _General estimates for technical t9n, YMMV_
 
+# Time
 
+## Scheduling
+
+
+
+<!--
 ## Localization Maturity Model
 
 The _localization maturity model_ can be used to gauge an organization's overall localization capacities. The model includes the following stages:
@@ -155,23 +185,23 @@ The _localization maturity model_ can be used to gauge an organization's overall
 - `2` **Repeatable**: Manual processes, inefficient
 - `3` **Managed**: Automated processes, efficient
 - `4` **Optimized**: Data-driven, specialized systems
-- `5` **Transparent**: GILT nirvana
+- `5` **Transparent**: GILT nirvana -->
 
 ## Takeaways
 
 - Do a GILT assessment
 - Partner up with a good, reputable LSP
-- If you want professional-level service, expect to pay market rates
+- Expect to pay professional-level rates
 
-## Further Resources
+## Additional Resources
 
 - [GALA](https://www.gala-global.org/): Globalization and Localization Association
 - [Localization Essentials](https://www.udacity.com/course/localization-essentials--ud610#): eLearning course presented by Udacity and Google
 - [Localization for Developers](https://www.lynda.com/Software-Development-tutorials/Localization-Developers/193806-2.html): eLearning course presented by LinkedIn
 - [Content Wrangler](https://thecontentwrangler.com/category/categories/localization/#): The Content Wrangler has a section for localization
-- [Globally Speaking](https://www.globallyspeakingradio.com/podcast): A industry podcast
+- [Globally Speaking](https://www.globallyspeakingradio.com/podcast): An industry podcast
 
-## Questions?
+## Thank You
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/512px-All_Gizah_Pyramids.jpg)
 
