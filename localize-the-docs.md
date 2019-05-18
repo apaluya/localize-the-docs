@@ -73,6 +73,7 @@ The decision to localize should be guided by a _GILT assessment_, which examines
 
 - _"What languages/locales should we support?"_
 - _"Do we have access to enough competent translators and reviewers for each language/locale pairing?"_
+- _"Do translators and reviewers have sufficient technical competence?"_
 
 ## GILT Assessment
 
@@ -96,7 +97,7 @@ No changes made to image.
 
 ## Localization Service Providers
 
-A localization service provider (LSP) can offer the following:
+A localization service provider (LSP) should offer the following:
 
 - Experienced industry professionals
 - Guidance on best practices
@@ -104,6 +105,7 @@ A localization service provider (LSP) can offer the following:
 - Vetted translators and reviewers
 - Project management
 - Reporting capabilities
+- General hand-holding
 
 ## Choosing an LSP
 
@@ -117,33 +119,35 @@ A localization service provider (LSP) can offer the following:
 
 ![](automated-workflow.png)
 
-## Localization Workflow: Client
+## L10n Workflow: Client
 
 You provide resources to your LSP
 
-- Source files
+- Source files _(DITA, markdown, `*.properties`,...)_
 - Terminology lists
+- Source publications
 - Translation memory _(if applicable)_
 
-## Localization Workflow: Tooling
+## L10n Workflow: Tooling
 
 Standardized XML tools make content portable
 
+- Parse source files
 - Create segments at sentence and phrase level
 - Find segment matches in translation memory
 - Create intermediate representation of data
 - Parse data to calculate cost estimates and reports
 - Route data through the LSP
 
-## Localization Workflow: Tooling
+## L10n Workflow: Tooling
 
-The XML tools use the following formats:
+The XML tools use the following standard formats:
 
 - Segmentation Rules eXchange _(SRX)_
 - Translation Memory eXchange _(TMX)_
 - XML Localization Interchange File Format _(XLIFF)_
 
-## Localization Workflow: LSP
+## L10n Workflow: LSP
 
 - Your PM organizes jobs and schedules
 - PM distributes content to translators
