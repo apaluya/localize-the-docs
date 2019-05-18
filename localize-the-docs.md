@@ -213,7 +213,7 @@ The _localization maturity model_ can be used to gauge an organization's overall
 
 - Do a GILT assessment to identify possible pain points
 - Partner up with a good, reputable LSP
-- Expect to pay professional-level rates
+- You get what you pay for!
 
 ## Additional Resources
 
