@@ -186,7 +186,7 @@ _General estimates for technical t9n, YMMV_
 ## Costs: Time
 
 - Automation increases velocity
--
+- More translators provide concurrency
 - Your LSP is motivated to deliver as quickly as possible
 
 
