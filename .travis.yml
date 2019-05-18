@@ -7,14 +7,17 @@ addons:
     - pandoc
 script:
 - pandoc --version
-- ./build.sh
+- "./build.sh"
 deploy:
   provider: releases
   api_key:
     secure: OV5hmkPmwsGOk6u3X3vL7NtPPOrItjvVb7q8/mbMW9Ji/glEBy/r0ufNvFmi2TKUO6lYKP7F/kFLECRLGC5Crsdl/N4hiS35zhn4b5cVuuhsjI8/wuERdFFVP7FrOvsbRxiEk5qtb0B2084rx06OujEtgr27MlINHUbb9bFEPN2tDlq2GlHwnEImQyVJrNYffS9Vl1znRVdZYPPmE8srDo7SIQEkeaeD78+Zp12h7WltRCqiLPHdvu9TXuzNspcb8XFn0hybWS7qufyMIHmnAkLZtfA6IU2W8J3cmtDqe2pHJgCjnuHXd7ZLmD09O2F4nsY3mh5bxrM+52AF3NywMI+7VY4lkK7ZKpOG5EOuvDNX11crAz+go36v8E2IMW4s5qptj2EBcfk7KRzpP7lNH/pPFb9oVgQgS/AELRBWQJoNqU9j7FVXWGIMNqz+0u4o0x1YbgDLVCK707cJC1hGjtZgT2R9sFHT2U00SOb4QYBT6r678xh6r6qTzToYP54s7w2+0FU2ztv0ERIdO/K7LIO2m/4AWfatgVczhy6hyONidRuGYvBxIRAuL+Yywm69ROp2KTBa41Zjdss9rfmziOmEVhFWzUol9ufmzNy2mCxDJmqED4P2TEkI9swYOrtU/PpVGsrEDi67KEaDwXxqAcxQY2RnIwAdjkbBJCghEs4=
   file:
-    - localize-the-docs.html
+  - localize-the-docs.html
   skip_cleanup: true
   on:
     repo: apaluya/localize-the-docs
     tags: true
+env:
+  matrix:
+    secure: CAlERtyAVSzut80Y0/7gVJveNR5xhLg8WKjbVzihtG+M6XaQd0PZY6TFEnpoZsoX4gscE7y3P0IUFZnMgJh0tjS2rJJXOcr7KxPWBcIkwjTX13uXxjd2Jh2lv58fv2SZZukYqkeGAyiAEZMYxfp0KTqsN9cD7StYmZC56vlYSNl1ww2DSLTv0QNJd4yezqRNPhcc7C0Kijr8PAiuf3E6/Nr+D0e2PEzNpn37ZvMntjzQzCnJsaQ89DXeecn14Tz5npBcu0D0wdKvcSMVJZwNYQuAL6xv5Soesf8DDgyXgVWk6xbcorda8i/RKhRmrdx1ICrYFVDVbN9ALmgyN96UB/KN2tvd5k3pOd19wtlBycXvZuiAx2tB19kUvS0qRrDeV+5P4R4VPvMeLjMvvG6TNzjSB8pdUIGFv6iDqRGFrn05nByBY1l+mkZ8zRtm1hsKDO2mgJ+1a3Vg55OeKeoPe9ECboyG5tNNqwytjYreR47LWmz64SuEEgLI0sxELLU/8ia3KD/pqHMKvF3rR4XS9wr1c14Cv5jlIufp6E/sv6fsiJ5K6U2EvFdMGr9WtGXHVuHTVy+4OWv+QFcPSF1JJyv3/vExWDbkYCBzfr3c6D24WQvLADAS4Bk0nn8EIIieJUTOIwYW83WwdjMBH87iofupivu82mSX7Y694IeCS2g=
