@@ -15,16 +15,19 @@ author: Paul Wallace
 
 # Localize the Docs
 
-## Localize the Docs
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/512px-All_Gizah_Pyramids.jpg)
+## `$ whoami`
 
-::: notes
-Ricardo Liberato [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]
-No changes to image.
-:::
+I'm a role player...
+
+- Japanese translator
+- Editor
+- Tech writer
+- Localization engineer
+- Developer
 
 # G11n I18n L10n T9n... WTF?!
+
 
 ## GILT
 
@@ -48,9 +51,9 @@ The decision to localize should be guided by a _GILT assessment_, which examines
 
 - _"Can we profit by entering a specific language/locale market?"_
 - _"What is the current i18n and l10n state of the product?"_
+- _"What resources must we deploy to achieve our goals?"_
 - _"What is the estimated time to market?"_
 - _"What is the expected ROI?"_
-- _"What resources must we deploy to achieve our goals?"_
 
 ## Internationalization Concerns
 
@@ -62,16 +65,16 @@ The decision to localize should be guided by a _GILT assessment_, which examines
 
 ## Localization Concerns
 
-- _"Are we partnered with a competent, capable LSP?"_
-- _"How efficiently can we round-trip content?"_
 - _"Have we identified our domain-specific terminologies?"_
 - _"Is doc content written in global English?"_
 - _"Are images localizable?"_
+- _"Do we have a competent, capable service partner?"_
+- _"How efficiently can we round-trip content?"_
 
 ## Translation Concerns
 
 - _"What languages/locales should we support?"_
-- _"Does the LSP have access to enough competent translators and reviewers for each language/locale pairing?"_
+- _"Do we have access to enough competent translators and reviewers for each language/locale pairing?"_
 
 
 ## GILT Assessment
@@ -94,7 +97,7 @@ No changes made to image.
 
 ## Localization Service Providers
 
-A localization service provider (LSP) can offer the following:
+A localization service provider (LSP) should provide the following:
 
 - Experienced professionals
 - Industry knowledge and guidance
@@ -102,9 +105,11 @@ A localization service provider (LSP) can offer the following:
 - Vetted translators and reviewers
 - Project management
 - Reporting capabilities
-- _Remember, you get what you pay for!_
+- _Not all LSPs are created the same!_
 
-## Costs: Basic Per-word Estimates
+# Costs
+
+## Costs: Per-word Estimates
 
 | Lang group        | Word price  |
 |-------------------|-------------|
@@ -117,7 +122,7 @@ A localization service provider (LSP) can offer the following:
 
 _General estimates for technical t9n, YMMV_
 
-## Costs: Reuse
+## Costs: Translation Reuse
 
 | Match type         | Cost % |
 |--------------------|--------|
@@ -156,5 +161,21 @@ The _localization maturity model_ can be used to gauge an organization's overall
 
 - Do a GILT assessment
 - Partner up with a good, reputable LSP
-- Expect to pay market rates for professional-level service
--
+- If you want professional-level service, expect to pay market rates
+
+## Further Resources
+
+- [GALA](https://www.gala-global.org/): Globalization and Localization Association
+- [Localization Essentials](https://www.udacity.com/course/localization-essentials--ud610#): eLearning course presented by Udacity and Google
+- [Localization for Developers](https://www.lynda.com/Software-Development-tutorials/Localization-Developers/193806-2.html): eLearning course presented by LinkedIn
+- [Content Wrangler](https://thecontentwrangler.com/category/categories/localization/#): The Content Wrangler has a section for localization
+- [Globally Speaking](https://www.globallyspeakingradio.com/podcast): A industry podcast
+
+## Questions?
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/512px-All_Gizah_Pyramids.jpg)
+
+::: notes
+Ricardo Liberato [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]
+No changes to image.
+:::
