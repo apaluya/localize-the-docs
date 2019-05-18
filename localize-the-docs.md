@@ -103,6 +103,8 @@ A localization service provider (LSP) should provide the following:
 - Project management
 - Reporting capabilities
 
+# Localization Workflow
+
 ## Localization Workflow
 
 ![](automated-workflow.png)
@@ -117,19 +119,25 @@ You provide resources to your LSP
 
 ## Localization Workflow: Tooling
 
+Standardized XML tools make content portable
+
 - Create segments at sentence and phrase level
 - Find segment matches in translation memory
 - Create intermediate representation of data
 - Parse data to calculate cost estimates and reports
-- Route data through LSP
+- Route data through the LSP
 
 ## Localization Workflow: LSP
 
-- Your PM organizes jobs and scheduling
+- Your PM organizes jobs and schedules
 - PM distributes content to translators
 - Translators use IDEs to work on data
 - PM receives data and sends it back through tooling
 - You receive translated source content
+
+## Localization Workflow
+
+![](automated-workflow.png)
 
 # Costs
 
