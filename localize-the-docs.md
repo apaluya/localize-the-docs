@@ -188,6 +188,13 @@ _General estimates for technical t9n, YMMV_
 - Automation increases velocity
 - More translators provide concurrency
 - Your LSP is motivated to deliver as quickly as possible
+- You should trust their estimates
+
+## Costs: Time
+
+- 100s of words: A few days
+- 1000s of words: A little over a week
+- 10000s of words: A few weeks
 
 
 <!--
