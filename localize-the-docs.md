@@ -13,6 +13,8 @@ author: Paul Wallace
 # You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ---
 
+# Localize the Docs
+
 ## Localize the Docs
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/512px-All_Gizah_Pyramids.jpg)
@@ -22,7 +24,7 @@ Ricardo Liberato [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)]
 No changes to image.
 :::
 
-## G11n I18n L10n T9n... WTF?!
+# G11n I18n L10n T9n... WTF?!
 
 ## GILT
 
