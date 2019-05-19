@@ -23,11 +23,12 @@ author: Paul Wallace
 - Tech writer
 - Localization engineer
 - Developer
+- ...
 
 # G11n I18n L10n T9n... WTF?!
 
 
-## GILT
+## G11n + I18n + L10n + T9n = GILT
 
 The term _localization_ is often used as shorthand for the following domains:
 
@@ -38,12 +39,15 @@ The term _localization_ is often used as shorthand for the following domains:
 
 ## GILT Assessment
 
-The decision to localize should be guided by a _GILT assessment_, which examines the following:
+The decision to localize should be guided by a _GILT assessment_
 
-- The business case _(globalization)_
-- Product infrastructure _(internationalization)_
-- Process infrastructure _(localization)_
-- Competency of service providers _(translation)_
+| Domain | Concern |
+|--------|---------|
+| Globalization | Business case |
+| Internationalization | Product infrastructure |
+| Localization | Process infrastructure |
+| Translation | Service competency |
+
 
 ## Globalization Concerns
 
@@ -132,12 +136,12 @@ You provide resources to your LSP
 
 Standardized XML tools make content portable
 
-- Parse source files
-- Create segments at sentence and phrase level
-- Find segment matches in translation memory
-- Create intermediate representation of data
-- Parse data to calculate cost estimates and reports
-- Route data through the LSP
+1. Parse source files
+2. Create segments at sentence and phrase level
+3. Find segment matches in translation memory
+4. Create intermediate representation of data
+5. Parse data to calculate cost estimates and reports
+6. Route data through the LSP
 
 ## L10n Workflow: Tooling
 
@@ -234,8 +238,8 @@ Gauging an organization's overall localization capacities
 
 ## Takeaways
 
-- Do a GILT assessment to identify possible pain points
 - Partner up with a good, reputable LSP
+- Do a GILT assessment to identify possible pain points
 - Expect to pay market rates _(You get what you pay for!)_
 
 ## Additional Resources
