@@ -54,7 +54,7 @@ The decision to localize should be guided by a _GILT assessment_
 - _"Can we profit by entering a specific language/locale market?"_
 - _"What is the current i18n and l10n state of the product?"_
 - _"What resources must we deploy to achieve our goals?"_
-- _"What is the estimated time to market?"_
+- _"How long will it take to get to market?"_
 - _"What is the expected ROI?"_
 
 ## Internationalization Concerns
@@ -86,7 +86,7 @@ A GILT assessment can identify the following:
 - Possible bottlenecks
 - Hidden internal costs
 - Potential ROI
-- Feasibility
+- Project feasibility
 
 # Localization Workflow
 
@@ -108,7 +108,7 @@ A localization service provider (LSP) should offer the following:
 - Modern tool systems
 - Vetted translators and reviewers
 - Project management
-- Reporting capabilities
+- Reporting capabilities (dashboards)
 - General hand-holding
 
 ## Choosing an LSP
@@ -223,18 +223,26 @@ _General estimates for technical t9n, YMMV_
 - 1000s of words: A little over a week
 - 10000s of words: A few weeks
 
+# I18n Issues
 
-<!--
-## Localization Maturity Model
+## I18n Issues: Docs
 
-Gauging an organization's overall localization capacities
+Typical i18n issues in docs
 
-- `0` **Negligent**: Wait, we're localizing?!
-- `1` **Reactive**: Ad hoc, lots of surprises
-- `2` **Repeatable**: Manual processes, inefficient
-- `3` **Managed**: Automated processes, efficient
-- `4` **Optimized**: Data-driven, specialized systems
-- `5` **Transparent**: GILT nirvana -->
+- Content files separated from tools
+- Content files separated by language
+- Diagrams and screenshots
+- Terms and names
+
+## I18n Issues: Dev
+
+Typical i18n issues in dev
+
+- Strings abstracted from code
+- Avoid string fragments -- review!
+- Take care with variables
+- Dates/time, numbers, currencies
+- UI labels
 
 ## Takeaways
 
