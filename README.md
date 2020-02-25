@@ -6,4 +6,4 @@ The build artifact of this project is an HTML slide presentation using [RevealJS
 
 The source content is in the [localize-the-docs.md](localize-the-docs.md) file.
 
-The video of my presentation is available here: [https://www.youtube.com/watch?v=PMd6yVWgGjM](https://www.youtube.com/watch?v=PMd6yVWgGjM)
+The video of my presentation is available here: [https://www.writethedocs.org/videos/portland/2019/localize-the-docs-paul-wallace/](https://www.writethedocs.org/videos/portland/2019/localize-the-docs-paul-wallace/)
